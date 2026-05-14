@@ -14,7 +14,9 @@ Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, ek
 | Birincil Metrik | RMSE |
 | Train | 56000,24 | 
 | Test| 24000,23 | 
+
 ## Result
+
 | :--- | :---: | 
 | En iyi model | RMSE:0.3853 | 
 
