@@ -15,9 +15,7 @@ Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, ek
 | Train | 56000,24 | 
 | Test| 24000,23 | 
 
-## Result
-
-### **<span style="color:lightblue">En iyi model: </span>**
+### **<span style="color:orange">En iyi model: </span>**
 | En iyi model | RMSE:0.3853 | 
 
 ### Proje yapısı
