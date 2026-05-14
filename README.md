@@ -17,23 +17,3 @@ Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyebilirsin
 1. Depoyu klonlayın:
    ```bash
    git clone [https://github.com/kullaniciadi/yzta-2026-datathon-cognitive-score.git](https://github.com/kullaniciadi/yzta-2026-datathon-cognitive-score.git)
-
-
-# 1. Klasörü bir Git deposu haline getir
-git init
-
-# 2. Tüm dosyaları (klasör yapısıyla birlikte) takibe al
-git add .
-
-# 3. Yaptığın işlemi onayla (Commit)
-git commit -m "Proje yapısı ve ilk modelleme çalışmaları eklendi"
-
-# 4. Ana dal ismini 'main' yap (GitHub standardı)
-git branch -M main
-
-# 5. Yerel deponu GitHub'daki boş depoya bağla 
-# (Aşağıdaki URL kısmına kendi oluşturduğun reponun linkini yapıştır)
-git remote add origin https://github.com/kullanici_adin/repo_adin.git
-
-# 6. Dosyaları GitHub'a gönder
-git push -u origin main
