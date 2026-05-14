@@ -17,7 +17,7 @@ Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, ek
 
 ## Result
 
-| :--- | :---: | 
+### **<span style="color:lightblue">En iyi model: </span>**
 | En iyi model | RMSE:0.3853 | 
 
 ### Proje yapısı
