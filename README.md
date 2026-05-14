@@ -7,6 +7,19 @@ Bu proje, bireylerin çeşitli demografik özellikleri ve uyku verilerini kullan
 ## 📊 Proje Özeti
 Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, eksik değer tamamlama ve regresyon modelleme süreçleri uygulanmıştır. 
 
+|  | Değer 
+| :--- | :---: | 
+| Görev | Regresyon | 
+| Hedef | bilissel_performans_skoru | 
+| Birincil Metrik | RMSE |
+| Train | 56000,24 | 
+| Test| 24000,23 | 
+## Result
+| :--- | :---: | 
+| En iyi model | RMSE:0.3853 | 
+
+### Proje yapısı
+
 ### Temel Özellikler:
 - **Eksik Değer Yönetimi:** Eksik veriler, basit ortalama ataması yerine **LightGBM (Regressor & Classifier)** modelleri kullanılarak akıllı bir şekilde doldurulmuştur.
 - **Model Seçimi:** Çoklu Doğrusal Regresyon'un veriye uygun olmadığı tespit edildikten sonra **Ensemble** yöntemlerine (Random Forest, XGBoost, Bagging) odaklanılmıştır.
