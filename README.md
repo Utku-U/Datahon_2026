@@ -16,6 +16,19 @@ Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, ek
 | Test| 24000,23 | 
 | En iyi model | RMSE: 0.3853 | 
 
+### Data Cleaning
+Elimizdeki ham veri setlerinde, eksik sütunu olan değişkenlerin tespiti ve LGBM modeli ile eksik değeri olmayan gözlemler kullanılarak, eksik gözlemi olan bütün değişken değerlerinin tahminler üretilir ve atama işlemi gerçekleştirilir. Daha sonra, artık eksik gözlemi bulunmayan verilerin kategorik ve numerik olarak gözlenmesi işlemlerini içerir.
+
+### EDA
+- Numerik değişkenlerin histogram grafikleri, bağımsız değişkenlerin hedef değişkene göre saçılımları ve Box-plot grafikleri incelenerek, veride aykırı değerlerin varlığı ve uygun regresyon model seçimlerine dair bir ön izlenim barındırması amaçlanmıştır. 
+
+- Ve Korelasyon grafiği ile değişkenler arası ilişkiler incelenmiştir. "hafta_sonu_uyku_farki_saat" ilişkisiz olduğu için noise azaltmaya yönelik bu değişken çıkartılmıştır.
+
+
+### Data Manipulation
+
+
+
 ### Temel Özellikler:
 - **Eksik Değer Yönetimi:** Eksik veriler, basit ortalama ataması yerine **LightGBM (Regressor & Classifier)** modelleri kullanılarak akıllı bir şekilde doldurulmuştur.
 - **Model Seçimi:** Çoklu Doğrusal Regresyon'un veriye uygun olmadığı tespit edildikten sonra **Ensemble** yöntemlerine (Random Forest, XGBoost, Bagging) odaklanılmıştır.
