@@ -17,7 +17,7 @@ Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, ek
 | Test| 24000,23 | 
 
 ### Data Cleaning
-Elimizdeki ham veri setlerinde(train,test), eksik değeri olan değişkenlerin sınıflandırma modeli ile (LGBM) doldurulabilmesi adına elimizde daha fazla gözlem olması adına bu aşama için train ve test verileri birleştirilmiştir. Bu sayede elimizde 80000 gözlemli tek bir veri setinde eksik değeri olmayan gözlemler kullanılarak, eksik gözlemi olan bütün değişken değerlerine uygun tahminler değerleri üretilir ve indexlerine göre uygun verilere(train,test) atama işlemi gerçekleştirilir. Daha sonra, artık eksik gözlemi bulunmayan verilerin kategorik ve numerik olarak gözlenmesi işlemlerini içerir. 
+- Elimizdeki ham veri setlerinde(train,test), eksik değeri olan değişkenlerin sınıflandırma modeli ile (LGBM) doldurulabilmesi adına elimizde daha fazla gözlem olması adına bu aşama için train ve test verileri birleştirilmiştir. Bu sayede elimizde 80000 gözlemli tek bir veri setinde eksik değeri olmayan gözlemler kullanılarak, eksik gözlemi olan bütün değişken değerlerine uygun tahminler değerleri üretilir ve indexlerine göre uygun verilere(train,test) atama işlemi gerçekleştirilir. Daha sonra, artık eksik gözlemi bulunmayan verilerin kategorik ve numerik olarak gözlenmesi işlemlerini içerir. 
 
 ### EDA
 - Numerik değişkenlerin histogram grafikleri, bağımsız değişkenlerin hedef değişkene göre saçılımları ve Box-plot grafikleri incelenerek, veride aykırı değerlerin varlığı ve uygun regresyon model seçimlerine dair bir ön izlenim barındırması amaçlanmıştır. 
