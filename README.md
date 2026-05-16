@@ -59,7 +59,6 @@ Elimizdeki ham veri setlerinde(train,test), eksik değeri olan değişkenlerin s
 ## 🛠️ Kurulum
 Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-1. Depoyu klonlayın:
    ```bash
    pip install -r requirements.txt
    git clone [https://github.com/kullaniciadi/yzta-2026-datathon-cognitive-score.git](https://github.com/kullaniciadi/yzta-2026-datathon-cognitive-score.git)
