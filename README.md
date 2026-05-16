@@ -3,7 +3,7 @@
 ## YZTA 2026 Datathon: Bilişsel Performans Skoru Tahmini
 
 Bu proje, bireylerin çeşitli demografik özellikleri ve uyku verilerini kullanarak **Bilişsel Performans Skorlarını** tahmin etmeyi amaçlayan bir makine öğrenmesi çalışmasıdır.
-
+`Not:` Bu veri setinde herhangi bir External Data kullanılmamıştır. 
 ## 📊 Proje Özeti
 Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, eksik değer tamamlama ve regresyon modelleme süreçleri uygulanmıştır. 
 
@@ -14,7 +14,6 @@ Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, ek
 | Birincil Metrik | RMSE |
 | Train | 56000,24 | 
 | Test| 24000,23 | 
-| En iyi model | RMSE: 0.3853 | 
 
 ### Data Cleaning
 Elimizdeki ham veri setlerinde(train,test), eksik değeri olan değişkenlerin sınıflandırma modeli ile (LGBM) doldurulabilmesi adına elimizde daha fazla gözlem olması adına bu aşama için train ve test verileri birleştirilmiştir. Bu sayede elimizde 80000 gözlemli tek bir veri setinde eksik değeri olmayan gözlemler kullanılarak, eksik gözlemi olan bütün değişken değerlerine uygun tahminler değerleri üretilir ve indexlerine göre uygun verilere(train,test) atama işlemi gerçekleştirilir. Daha sonra, artık eksik gözlemi bulunmayan verilerin kategorik ve numerik olarak gözlenmesi işlemlerini içerir. 
