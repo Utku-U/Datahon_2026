@@ -3,6 +3,7 @@
 ## YZTA 2026 Datathon: Bilişsel Performans Skoru Tahmini
 
 Bu proje, bireylerin çeşitli demografik özellikleri ve uyku verilerini kullanarak **Bilişsel Performans Skorlarını** tahmin etmeyi amaçlayan bir makine öğrenmesi çalışmasıdır.
+
 `Not:` Bu veri setinde herhangi bir External Data kullanılmamıştır. 
 ## 📊 Proje Özeti
 Proje kapsamında sunulan veri seti üzerinde kapsamlı bir veri ön işleme, eksik değer tamamlama ve regresyon modelleme süreçleri uygulanmıştır. 
