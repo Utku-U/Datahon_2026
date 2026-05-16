@@ -52,10 +52,6 @@ Elimizdeki ham veri setlerinde(train,test), eksik değeri olan değişkenlerin s
 
 
 
-### Temel Özellikler:
-- **Eksik Değer Yönetimi:** Eksik veriler, basit ortalama ataması yerine **LightGBM (Regressor & Classifier)** modelleri kullanılarak akıllı bir şekilde doldurulmuştur.
-- **Model Seçimi:** Çoklu Doğrusal Regresyon'un veriye uygun olmadığı tespit edildikten sonra **Ensemble** yöntemlerine (Random Forest, XGBoost, Bagging) odaklanılmıştır.
-
 ## 🛠️ Kurulum
 Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
